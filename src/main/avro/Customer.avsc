@@ -1,0 +1,28 @@
+{
+  "doc": "Customer schema.",
+  "fields": [
+    {
+      "doc": "Customer ID",
+      "name": "customerId",
+      "type": "string"
+    },
+    {
+      "doc": "Customer Name",
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "doc": "Customer Phone Number",
+      "name": "phoneNumber",
+      "type": "string"
+    },
+    {
+      "doc": "Customer Account Id",
+      "name": "accountId",
+      "type": "string"
+    }
+  ],
+  "name": "Customer",
+  "namespace": "com.threerivers.kafkademo",
+  "type": "record"
+}

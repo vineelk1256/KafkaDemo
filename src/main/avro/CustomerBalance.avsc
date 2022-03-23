@@ -1,0 +1,28 @@
+{
+  "doc": "Customer Balance schema.",
+  "fields": [
+    {
+      "doc": "Account ID",
+      "name": "accountId",
+      "type": "string"
+    },
+    {
+      "doc": "Customer Id",
+      "name": "customerId",
+      "type": "string"
+    },
+    {
+      "doc": "Phone Number",
+      "name": "phoneNumber",
+      "type": "string"
+    },
+    {
+      "doc": "Account Balance",
+      "name": "balance",
+      "type": "double"
+    }
+  ],
+  "name": "CustomerBalance",
+  "namespace": "com.threerivers.kafkademo",
+  "type": "record"
+}

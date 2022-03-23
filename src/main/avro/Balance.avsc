@@ -1,0 +1,23 @@
+{
+  "doc": "Balance schema.",
+  "fields": [
+    {
+      "doc": "Balance ID",
+      "name": "balanceId",
+      "type": "string"
+    },
+    {
+      "doc": "Customer Account Id",
+      "name": "accountId",
+      "type": "string"
+    },
+    {
+      "doc": "Balance",
+      "name": "balance",
+      "type": "double"
+    }
+  ],
+  "name": "Balance",
+  "namespace": "com.threerivers.kafkademo",
+  "type": "record"
+}
